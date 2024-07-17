@@ -27,6 +27,11 @@ a {
     text-align: center;
 }
 
+.section-1 img {
+    width: 26vh;
+    border-radius: 64px;
+}
+
 .section-1 p {
     font-size: 1.1rem;
     padding-bottom: 10px;
