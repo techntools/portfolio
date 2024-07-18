@@ -1,4 +1,4 @@
-var acc = document.getElementsByClassName("accordion");
+var acc = document.getElementsByClassName('accordion');
 var i;
 
 for (i = 0; i < acc.length; i++) {
@@ -9,8 +9,8 @@ for (i = 0; i < acc.length; i++) {
         this.classList.toggle("active");
         var panel = this.nextElementSibling;
         if (!panel.style.height) {
-            panel.style.height = "auto";
-            panel.style.padding = "2vh";
+            panel.style.height = 'auto';
+            panel.style.padding = '2vh';
         } else {
             panel.style.height = null;
             panel.style.padding = null;
