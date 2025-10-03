@@ -55,9 +55,10 @@ a {
 
 .section-2 .about {
     font-size: 1.6rem;
+    font-weight: 700;      /* pick a bolder weight */
     padding: 7vh;
     margin: 0;
-    font-family: 'monospace';
+    font-family: 'Doto', monospace;
     text-align: center;
 }
 
@@ -86,9 +87,8 @@ a {
 }
 
 .section-2 .job-desc {
-    font-style: oblique;
-    font-size: 0.9rem;
-    font-family: 'monospace';
+    font-size: 1.7rem;
+    font-family: 'VT323', monospace;
     color: silver;
 }
 
@@ -199,6 +199,13 @@ div.desc {
   overflow: hidden;
   transition: height 0.3s ease-out;
   transition: padding 0.3s ease-out;
+}
+
+.gradient {
+    background: linear-gradient(90deg,#ff7a18,#af002d);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; /* show the gradient through the text */
 }
 
 @media only screen and (max-width: 700px) {
