@@ -17,3 +17,7 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+window.addEventListener('load', () => {
+    document.body.classList.add('is-loaded');
+});
